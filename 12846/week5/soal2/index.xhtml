@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+    <title>Reservasi Hotel Room</title>
+  </head>
+  <body>
+    <h1>Reservasi Hotel Room</h1>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Personal Data</legend>
+            <br />
+            <tr>
+                <td colspan="2">
+                    <label for="nama">1. Name</label><br />
+                    <input type="text" id="nama" name="nama" size="30" />
+                </td>
+            </tr>
+            <br />
+            <tr>
+                <td colspan="2">
+                    <label for="gender">2. Gender</label><br />
+                    <input type="text" id="gender" name="gender" size="30" />
+                </td>
+            </tr>
+            <br />
+            <tr>
+                <td colspan="2">
+                    <label for="email">3. Email Address</label><br />
+                    <input type="text" id="email" name="email" size="30" />
+                </td>
+            </tr>
+            <br />
+            <tr>
+                <td>
+                    <label for="notlp">4. Telp Number</label><br />
+                    <input type="number" id="notlp" name="notlp" size="30" />
+                </td>
+            </tr>
+            <br />
+        </fieldset>
+
+        <fieldset>
+            <legend>Reservation Room Form</legend>
+            <br />
+            <tr>
+                <td colspan="2">
+                    <label for="namareserv">1. Reservation Name</label><br />
+                    <input type="text" id="namareserv" name="namareserv" size="30" />
+                </td>
+            </tr>
+            <br />
+            <tr>
+                <td colspan="2">
+                    <label for="bookingdate">2. Booking date</label><br />
+                    <input type="date" id="bookingdate" name="bookingdate" size="30" />
+                </td>
+            </tr>
+            <br />
+            <tr>
+                <td colspan="2">
+                    <label for="roomtype">3. Room Type</label><br />
+                    <select id="roomType" name="roomType">
+                        <option>Emerald</option>
+                        <option>Diamond</option>
+                        <option>Ruby</option>
+                    </select>
+                </td>
+            </tr>
+            <br />
+            <tr>
+                <td colspan="2">
+                    <label for="bedtype">4. Bed Type</label><br />
+                    <select id="bedtype" name="bedtype">
+                        <option>Single</option>
+                        <option>Double</option>
+                        <option>Queen</option>
+                        <option>King</option>
+                    </select>
+                </td>
+            </tr>
+            <br />
+            <tr>
+                <td colspan="2">
+                    <label for="breakfast">5. Breakfast</label><br />
+                    <input type="radio" id="breakfast1" name="breakfast" value="yes" />
+                    <label for="breakfast1">With Breakfast</label>
+                    <input type="radio" id="breakfast2" name="breakfast" value="no" />
+                    <label for="breakfast2">Without Breakfast</label>
+                </td>
+            </tr>
+            <br />
+        </fieldset>
+
+        <fieldset>
+            <legend>Payment</legend>
+            <br />
+                <tr>
+            <td colspan="2">
+                <label for="checkindate">1. Check in date</label><br />
+                <input type="date" id="checkindate" name="checkindate" size="30" />
+            </td>
+            </tr>
+            <br />
+            <tr>
+                <td colspan="2">
+                    <label for="checkoutdate">2. Check out date</label><br />
+                    <input type="date" id="checkoutdate" name="checkoutdate" size="30" />
+                </td>
+            </tr>
+            <br />
+            <tr>
+                <td colspan="2">
+                    <label for="paymentmethod">3. Payment Method</label><br />
+                    <select id="paymentmethod" name="paymentmethod">
+                        <option>Credit Card</option>
+                        <option>Debit Card</option>
+                        <option>Cash</option>
+                    </select>
+                </td>
+            </tr>
+            <br />
+        </fieldset>
+        <br />
+        <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
