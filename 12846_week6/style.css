@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(105deg, #1e3c72 0%, #2a5298 20%, #3d5af1 40%, #6dd5ed 60%, #a8c0ff 80%, #c471ed 100%);
+  margin: 0;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+form {
+  background-color: white;
+  padding: 25px 35px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  margin-bottom: 50px;
+}
+
+h1 {
+  text-align: center;
+  color: #003d7a;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+fieldset {
+  border: 2px solid #66b3ff;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+legend {
+  font-weight: bold;
+  color: #004d99;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #003366;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 7px;
+  margin-bottom: 10px;
+  border: 1px solid #66b3ff;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:hover,
+input[type="number"]:hover,
+input[type="date"]:hover,
+select:hover {
+  border-color: #3399ff;
+  box-shadow: 0 0 8px rgba(51, 153, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+select:focus {
+  outline: none;
+  border-color: #007acc;
+  box-shadow: 0 0 10px rgba(0, 122, 204, 0.4);
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"] {
+  background: linear-gradient(135deg, #3399ff 0%, #007acc 100%);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"]:hover {
+  background: linear-gradient(135deg, #007acc 0%, #005999 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"]:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
